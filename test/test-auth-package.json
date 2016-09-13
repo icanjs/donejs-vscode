@@ -1,0 +1,65 @@
+{
+  "name": "done-old",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "Marshall Thompson",
+    "email": "marshall@creativeideal.net",
+    "url": "https://github.com/icanjs"
+  },
+  "scripts": {
+    "test": "npm run jshint && testee src/test.html --browsers firefox --reporter Spec",
+    "start": "done-serve --port 8080",
+    "develop": "done-serve --develop --port 8080 --auth-cookie feathers-jwt --auth-domains canjs.com,donejs.com",
+    "document": "documentjs",
+    "build": "node build",
+    "jshint": "jshint --config src/."
+  },
+  "main": "done-old/index.stache!done-autorender",
+  "files": [
+    "src"
+  ],
+  "keywords": [],
+  "system": {
+    "main": "done-old/index.stache!done-autorender",
+    "directories": {
+      "lib": "src"
+    },
+    "configDependencies": [
+      "live-reload",
+      "node_modules/can-zone/register"
+    ],
+    "npmAlgorithm": "flat"
+  },
+  "dependencies": {
+    "can-component": "^3.0.0-pre.15",
+    "can-connect": "^0.6.0-pre.19",
+    "can-connect-feathers": "^1.1.6",
+    "can-define": "^0.7.27",
+    "can-route": "^3.0.0-pre.13",
+    "can-route-pushstate": "^3.0.0-pre.6",
+    "can-stache": "^3.0.0-pre.18",
+    "can-view-autorender": "^3.0.0-pre.4",
+    "can-zone": "^0.5.8",
+    "done-autorender": "^0.9.0-pre.1",
+    "done-component": "^0.6.0-pre.2",
+    "done-css": "^2.1.0-pre.0",
+    "done-serve": "^0.3.0-pre.0",
+    "generator-donejs": "^0.10.0-pre.0",
+    "jquery": "~2.2.1",
+    "steal": "^0.16.35",
+    "steal-stache": "^3.0.0-pre.3"
+  },
+  "devDependencies": {
+    "can-fixture": "^0.4.0-pre.12",
+    "documentjs": "^0.4.2",
+    "donejs-cli": "^0.10.0-pre.0",
+    "donejs-deploy": "^0.4.0",
+    "funcunit": "~3.0.0",
+    "jshint": "^2.9.3",
+    "steal-qunit": "^0.1.1",
+    "steal-tools": "^0.16.8",
+    "testee": "^0.2.4"
+  }
+}
