@@ -29,6 +29,7 @@
     "yeoman-generator": "^0.20.3"
   },
   "devDependencies": {
+    "fs-extra": "^0.30.0",
     "jshint": "^2.9.3",
     "mocha": "^2.5.3",
     "yeoman-assert": "^2.2.1",
