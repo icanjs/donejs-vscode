@@ -13,6 +13,10 @@ To add this generator to your DoneJS application, run
 donejs add vscode
 ```
 
+A launch.json file will automatically be built from the `develop` script in the project's package.json.  
+
+> Note: This will overwrite any existing `/.vscode/launch.json` you have in place.  But, if you are just staring a new project, you probably won't have one in place, yet.
+
 ## Developing
 
 To make changes to this generator, clone the repository and install the dependencies
