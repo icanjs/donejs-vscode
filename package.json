@@ -1,0 +1,37 @@
+{
+  "name": "donejs-vscode",
+  "version": "0.0.0",
+  "description": "Add a Visual Studio Code launch.json to your DoneJS app.",
+  "homepage": "https://github.com/icanjs/donejs-vscode",
+  "author": {
+    "name": "Marshall Thompson",
+    "email": "marshall@creativeideal.net",
+    "url": "https://github.com/icanjs"
+  },
+  "license": "MIT",
+  "main": "lib/",
+  "scripts": {
+    "test": "npm run jshint && npm run mocha",
+    "jshint": "jshint test/. default/index.js --config",
+    "mocha": "mocha test/ --timeout 120000",
+    "publish": "git push origin --tags && git push origin",
+    "release:patch": "npm version patch && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:major": "npm version major && npm publish"
+  },
+  "keywords": [
+    "donejs",
+    "vscode",
+    "ssr"
+  ],
+  "dependencies": {
+    "lodash": "^4.15.0",
+    "yeoman-generator": "^0.20.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.3",
+    "mocha": "^2.5.3",
+    "yeoman-assert": "^2.2.1",
+    "yeoman-test": "^1.5.0"
+  }
+}
