@@ -1,6 +1,6 @@
 {
   "name": "donejs-vscode",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Add a Visual Studio Code launch.json to your DoneJS app.",
   "homepage": "https://github.com/icanjs/donejs-vscode",
   "author": {
