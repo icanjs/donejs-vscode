@@ -7,7 +7,7 @@ Add a Visual Studio Code launch.json to your DoneJS app.
 
 [Visual Studio Code](https://code.visualstudio.com/) is a cross-platform app for writing code and it comes with an excellent Node.js debugger.  This generator will setup your project to work with VS Code and is especially handy for debugging the server-side rendered part of a DoneJS application.
 
-![test](https://github.com/icanjs/donejs-vscode/blob/master/vscode.png?raw=true)
+![test](https://github.com/icanjs/donejs-vscode/blob/master/donejs-vscode-example.jpg?raw=true)
 
 ## Using the generator
 
